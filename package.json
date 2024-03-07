@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db:create": "node ./src/db/createTableQuery.js"
+    "db:create": "node ./src/db/start.js"
   },
   "author": "ReinaldoDev",
   "license": "ISC",

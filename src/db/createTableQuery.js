@@ -35,4 +35,6 @@ const createTable = async () => {
   }
 }
 
+
+
 export default createTable;
