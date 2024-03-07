@@ -35,6 +35,7 @@ npm run db:drop
 ```
 - POST localhost/api/clients: Adiciona um novo cliente.
 - GET localhost/api/optimize-route: Otimiza a rota dos clientes (TSP).
+- GET localhost/api/: Lista os clientes cadastrados.
 
 #### O DDL da tabela do banco de dados se encontra:
 - src/db/createTableQuery.js
