@@ -22,7 +22,10 @@ npm run db:create
 ```shell
 npm start
 ```
+## Comando para dropar a tabela clients.
+```shell
+npm run db:drop
+```
 
-## Rotas
 - POST localhost/api/clients: Adiciona um novo cliente.
 - GET localhost/api/optimize-route: Otimiza a rota dos clientes (TSP).
