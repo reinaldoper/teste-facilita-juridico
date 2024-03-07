@@ -1,6 +1,13 @@
 # Facilita Jurídico - Aplicação de Otimização de Rotas
 ## Esta aplicação visa otimizar rotas para clientes em um contexto jurídico. Utiliza um backend em Node.js com PostgreSQL como banco de dados.
 
+### Versões da aplicação a serem utilizadas.
+- "cors": "^2.8.5",
+- "express": "^4.18.3",
+- "nodemon": "^3.1.0",
+- "pg": "^8.11.3"
+- "node": "v16.14.2"
+
 ## Instalação
 - Clone o repositório:
 - cd teste-facilita-juridico
