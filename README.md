@@ -3,8 +3,7 @@
 
 ## Instalação
 - Clone o repositório:
-
-
+- cd teste-facilita-juridico
 - npm install
 ## Configure o banco de dados PostgreSQL através do docker:
 
