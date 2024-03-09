@@ -1,10 +1,11 @@
 import Clients from "../Model/Clients.js";
 import { Status } from "../Status.js";
+import ClientDto from '../ClientDto/ClientDto.js'
 
-class ControllerClients {
+class ControllerClients extends ClientDto {
   client = new Clients()
   constructor() {
-
+    super()
   }
 
   getClientsOptimized = async (req, res) => {
