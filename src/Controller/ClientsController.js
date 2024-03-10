@@ -20,7 +20,7 @@ class ControllerClients extends ClientDto {
   createClient = async (req, res) => {
     try {
       const client = await this.client.createClient(req.body);
-      return res.status(Status.OK).json({ message: client });
+      return res.status(Status.CREATED).json({ message: client });
     } catch (error) {
       return res.status(Status.ERROR_SERVER).json({ error: 'Internal server error' });
     }
