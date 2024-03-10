@@ -4,7 +4,7 @@ const createTableQuery = `
   CREATE TABLE IF NOT EXISTS clients (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
-    email VARCHAR(255),
+    email VARCHAR(255) UNIQUE,
     phone VARCHAR(20),
     xCoordinate FLOAT,
     yCoordinate FLOAT
